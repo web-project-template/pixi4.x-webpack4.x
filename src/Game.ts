@@ -9,9 +9,7 @@ export default class Game extends PIXI.Application {
     Game.NAME = "game" + Game.NUM++
   }
 
-  public start() {
-    // super.start()
-
+  public start2() {
     document.getElementById("pixi_player").appendChild(this.view);
   }
 }

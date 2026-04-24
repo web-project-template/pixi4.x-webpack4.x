@@ -15,6 +15,7 @@ let game = new Game({
   height: stageHeight,
   backgroundColor: 0x1099bb
 })
+game.start2()
 
 let app: ApplicationFacade = ApplicationFacade.getInstance(Game.NAME) as ApplicationFacade
 app.startup(game)
